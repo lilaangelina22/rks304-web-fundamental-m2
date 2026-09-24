@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Users - Admin</title>
+
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-pink-50 text-gray-700">
+
+
+    <aside class="fixed left-0 top-0 w-64 h-screen bg-pink-100 border-r border-pink-200 p-5">
+
+        <div class="flex items-center gap-3 mb-8">
+
+            <div class="w-10 h-10 bg-pink-500 text-white rounded-lg flex items-center justify-center font-bold">
+                A
+            </div>
+
+            <h1 class="text-xl font-bold text-pink-900">
+                Admin
+            </h1>
+
+        </div>
+
+        <nav class="space-y-2">
+
+            <a href="dashboard.html"
+               class="block px-4 py-3 rounded-lg hover:bg-pink-200 transition">
+                Dashboard
+            </a>
+
+            <a href="products.html"
+               class="block px-4 py-3 rounded-lg hover:bg-pink-200 transition">
+                Products
+            </a>
+
+            <a href="users.html"
+               class="block px-4 py-3 rounded-lg bg-pink-200 text-pink-900 font-semibold">
+                Users
+            </a>
+
+            <a href="setting.html"
+               class="block px-4 py-3 rounded-lg hover:bg-pink-200 transition">
+                Setting
+            </a>
+
+            <a href="index.html"
+               class="block px-4 py-3 rounded-lg hover:bg-pink-200 transition">
+                Logout
+            </a>
+
+        </nav>
+
+    </aside>
+
+
+   
+    <header class="ml-64 h-16 bg-white border-b border-pink-200 flex items-center justify-between px-8">
+
+        <h2 class="font-semibold text-pink-900">
+            Admin Dashboard
+        </h2>
+
+        <span class="text-sm text-gray-500">
+            Admin
+        </span>
+
+    </header>
+
+
+    <main class="ml-64 p-8">
+
+        <div class="mb-8">
+
+            <h1 class="text-3xl font-bold text-pink-900">
+                Users
+            </h1>
+
+            <p class="text-gray-500 mt-2">
+                Akun yang terdaftar dan dapat mengakses panel admin.
+            </p>
+
+        </div>
+
+        <div>
+
+            <div class="flex items-center justify-between mb-4">
+
+                <h2 class="text-xl font-bold text-pink-900">
+                    Akun Terdaftar
+                </h2>
+
+                <span class="text-sm text-gray-500">
+                    2 akun
+                </span>
+
+            </div>
+
+
+            <div class="bg-white border border-pink-200 rounded-xl shadow-sm overflow-hidden">
+
+                <table class="w-full text-left">
+
+                    <thead class="bg-pink-100">
+
+                        <tr>
+
+                            <th class="px-6 py-4 text-sm font-semibold text-pink-900">
+                                Nama
+                            </th>
+
+                            <th class="px-6 py-4 text-sm font-semibold text-pink-900">
+                                Peran
+                            </th>
+
+                            <th class="px-6 py-4 text-sm font-semibold text-pink-900">
+                                Status
+                            </th>
+
+                        </tr>
+
+                    </thead>
+
+
+                    <tbody class="divide-y divide-pink-100">
+
+                    
+                        <tr class="hover:bg-pink-50 transition">
+
+                            <td class="px-6 py-4 font-medium text-pink-900">
+                                Admin
+                            </td>
+
+                            <td class="px-6 py-4">
+                                Operator
+                            </td>
+
+                            <td class="px-6 py-4">
+
+                                <span class="px-3 py-1 text-sm rounded-full bg-pink-100 text-pink-700">
+                                    Aktif
+                                </span>
+
+                            </td>
+
+                        </tr>
+
+                        <tr class="hover:bg-pink-50 transition">
+
+                            <td class="px-6 py-4 font-medium text-pink-900">
+                                Lila Anjelina
+                            </td>
+
+                            <td class="px-6 py-4">
+                                Administrator
+                            </td>
+
+                            <td class="px-6 py-4">
+
+                                <span class="px-3 py-1 text-sm rounded-full bg-pink-100 text-pink-700">
+                                    Aktif
+                                </span>
+
+                            </td>
+
+                        </tr>
+
+
+                    </tbody>
+
+                </table>
+
+            </div>
+
+        </div>
+
+    </main>
+
+
+    <!-- FOOTER -->
+    <footer class="ml-64 bg-white border-t border-pink-200 px-8 py-4 text-sm text-gray-500">
+        © Dashboard Lila_2026
+    </footer>
+
+</body>
+</html>

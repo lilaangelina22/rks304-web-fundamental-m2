@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products - Admin</title>
+
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-pink-50 text-gray-700">
+
+    <aside class="fixed left-0 top-0 w-64 h-screen bg-pink-100 border-r border-pink-200 p-5">
+
+        <div class="flex items-center gap-3 mb-8">
+
+            <div class="w-10 h-10 bg-pink-500 text-white rounded-lg flex items-center justify-center font-bold">
+                A
+            </div>
+
+            <h1 class="text-xl font-bold text-pink-900">
+                Admin
+            </h1>
+
+        </div>
+
+        <nav class="space-y-2">
+
+            <a href="dashboard.html"
+               class="block px-4 py-3 rounded-lg hover:bg-pink-200 transition">
+                Dashboard
+            </a>
+
+            <a href="products.html"
+               class="block px-4 py-3 rounded-lg bg-pink-200 text-pink-900 font-semibold">
+                Products
+            </a>
+
+            <a href="users.html"
+               class="block px-4 py-3 rounded-lg hover:bg-pink-200 transition">
+                Users
+            </a>
+
+            <a href="setting.html"
+               class="block px-4 py-3 rounded-lg hover:bg-pink-200 transition">
+                Setting
+            </a>
+
+            <a href="index.html"
+               class="block px-4 py-3 rounded-lg hover:bg-pink-200 transition">
+                Logout
+            </a>
+
+        </nav>
+
+    </aside>
+
+
+    <header class="ml-64 h-16 bg-white border-b border-pink-200 flex items-center justify-between px-8">
+
+        <h2 class="font-semibold text-pink-900">
+            Admin Dashboard
+        </h2>
+
+        <span class="text-sm text-gray-500">
+            Admin
+        </span>
+
+    </header>
+
+
+    <main class="ml-64 p-8">
+
+        <div class="flex items-center justify-between mb-8">
+
+            <div>
+
+                <h1 class="text-3xl font-bold text-pink-900">
+                    Manajemen Produk
+                </h1>
+
+                <p class="text-gray-500 mt-1">
+                    Kelola produk yang tersedia di toko.
+                </p>
+
+            </div>
+
+            <a
+                href="add-produk.html"
+                class="bg-pink-500 hover:bg-pink-600 text-white px-5 py-3 rounded-lg font-semibold transition"
+            >
+                + Add Product
+            </a>
+
+        </div>
+
+        <div class="bg-white border border-pink-200 rounded-xl shadow-sm overflow-hidden">
+
+            <table class="w-full text-left">
+
+                <thead class="bg-pink-100">
+
+                    <tr>
+
+                        <th class="px-6 py-4 text-sm font-semibold text-pink-900">
+                            No
+                        </th>
+
+                        <th class="px-6 py-4 text-sm font-semibold text-pink-900">
+                            Name
+                        </th>
+
+                        <th class="px-6 py-4 text-sm font-semibold text-pink-900">
+                            Stock
+                        </th>
+
+                        <th class="px-6 py-4 text-sm font-semibold text-pink-900">
+                            Action
+                        </th>
+
+                    </tr>
+
+                </thead>
+
+
+                <tbody class="divide-y divide-pink-100">
+
+                    <tr class="hover:bg-pink-50 transition">
+
+                        <td class="px-6 py-4">
+                            1
+                        </td>
+
+                        <td class="px-6 py-4 font-medium text-pink-900">
+                            Laptop ASUS
+                        </td>
+
+                        <td class="px-6 py-4">
+                            15
+                        </td>
+
+                        <td class="px-6 py-4">
+
+                            <a
+                                href="edit-produk.html"
+                                class="text-pink-600 hover:text-pink-800 font-semibold mr-4"
+                            >
+                                Edit
+                            </a>
+
+                            <button class="text-red-500 hover:text-red-700 font-semibold">
+                                Delete
+                            </button>
+
+                        </td>
+
+                    </tr>
+
+
+                    <tr class="hover:bg-pink-50 transition">
+
+                        <td class="px-6 py-4">
+                            2
+                        </td>
+
+                        <td class="px-6 py-4 font-medium text-pink-900">
+                            Mouse Wireless
+                        </td>
+
+                        <td class="px-6 py-4">
+                            30
+                        </td>
+
+                        <td class="px-6 py-4">
+
+                            <a
+                                href="edit-produk.html"
+                                class="text-pink-600 hover:text-pink-800 font-semibold mr-4"
+                            >
+                                Edit
+                            </a>
+
+                            <button class="text-red-500 hover:text-red-700 font-semibold">
+                                Delete
+                            </button>
+
+                        </td>
+
+                    </tr>
+
+
+                    <tr class="hover:bg-pink-50 transition">
+
+                        <td class="px-6 py-4">
+                            3
+                        </td>
+
+                        <td class="px-6 py-4 font-medium text-pink-900">
+                            Iphone 17pro 1TB
+
+                        <td class="px-6 py-4">
+                            20
+                        </td>
+
+                        <td class="px-6 py-4">
+
+                            <a
+                                href="edit-produk.html"
+                                class="text-pink-600 hover:text-pink-800 font-semibold mr-4"
+                            >
+                                Edit
+                            </a>
+
+                            <button class="text-red-500 hover:text-red-700 font-semibold">
+                                Delete
+                            </button>
+
+                        </td>
+
+                    </tr>
+
+                </tbody>
+
+            </table>
+
+        </div>
+
+    </main>
+
+
+    <footer class="ml-64 bg-white border-t border-pink-200 px-8 py-4 text-sm text-gray-500">
+        © Dashboard Lila_2026
+    </footer>
+
+</body>
+</html>
